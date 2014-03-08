@@ -1,9 +1,9 @@
 module Test::Unit
   # Used to fix a minor minitest/unit incompatibility in flexmock
-  AssertionFailedError = Class.new(StandardError)
-  
+  #AssertionFailedError = Class.new(StandardError)
+
   class TestCase
-   
+
     def self.test(name, &block)
       test_name = "test_#{name.gsub(/\s+/,'_')}".to_sym
       defined = instance_method(test_name) rescue false
