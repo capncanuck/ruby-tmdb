@@ -1,5 +1,5 @@
 module Ruby
   module Tmdb
-    VERSION = "0.3.0"
+    VERSION = "3"
   end
 end
